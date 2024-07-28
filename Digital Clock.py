@@ -11,14 +11,11 @@ def time_update():
 root = tk.Tk()
 root.title("Digital Clock")
 
-# Make the window full screen
 root.attributes('-fullscreen', True)
 root.configure(background='black')
 
-# Exit full screen on pressing the Escape key
 root.bind("<Escape>", lambda event: root.attributes("-fullscreen", False))
 
-# Create a frame to hold both time and AM/PM labels
 frame = tk.Frame(root, background='black')
 frame.pack(expand=True)
 

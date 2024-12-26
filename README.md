@@ -17,17 +17,6 @@ Python 3.x
 Tkinter (comes pre-installed with Python)
 
 
-Installation
-1. Clone the repository:
-
-  git clone https://github.com/yourusername/digital-clock.git
-  cd digital-clock
-
-2. Run the application:
-
-  python digital_clock.py
-
-
 Usage
 
 The clock will display the current time in a large font.
